@@ -9,10 +9,10 @@ internal class GGrunnbeløpTest {
 
     @Test
     fun `gir riktig grunnbeløp`() {
-        val now = LocalDate.now()
-        assertEquals(106399.0, g.gjeldendeGrunnbeløp(now))
-        assertEquals(101351.0, g.gjeldendeGrunnbeløp(now.minusYears(1)))
-        assertEquals(99858.0, g.gjeldendeGrunnbeløp(now.minusYears(2)))
-        assertEquals(106399.0, g.gjeldendeGrunnbeløp(now))
+        val `2022` = LocalDate.of(2022, 1, 1)
+        assertEquals(106399.0, g.gjeldendeGrunnbeløp(`2022`))
+        assertEquals(101351.0, g.gjeldendeGrunnbeløp(`2022`.minusYears(1)))
+        assertEquals(99858.0, g.gjeldendeGrunnbeløp(`2022`.minusYears(2)))
+        assertEquals(106399.0, g.gjeldendeGrunnbeløp(`2022`))
     }
 }
