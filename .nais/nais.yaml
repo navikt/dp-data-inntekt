@@ -20,3 +20,8 @@ spec:
       value: earliest
     - name: KAFKA_PRODUKT_TOPIC
       value: teamdagpenger.{{ data.topic }}
+  accessPolicy:
+    outbound:
+      external:
+        - host: "g.nav.no"
+    inbound:
