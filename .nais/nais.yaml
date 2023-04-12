@@ -24,4 +24,3 @@ spec:
     outbound:
       external:
         - host: "g.nav.no"
-    inbound:
