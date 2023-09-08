@@ -35,7 +35,6 @@ fun main() {
 
     RapidApplication.create(env) { _, rapidsConnection ->
         rapidsConnection.seekToBeginning()
-        FakeInntektProducer(rapidsConnection, dataTopic)
         InntektRiver(rapidsConnection, dataTopic, GGrunnbeløp(timeToLive = Duration.ofHours(4)))
     }.start()
 }
