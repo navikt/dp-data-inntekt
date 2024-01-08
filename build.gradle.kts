@@ -21,7 +21,7 @@ dependencies {
     implementation("io.github.microutils:kotlin-logging:2.1.21")
     implementation("com.natpryce:konfig:1.6.10.0")
 
-    testImplementation("io.mockk:mockk:1.12.2")
+    testImplementation("io.mockk:mockk:1.13.9")
 }
 
 tasks.test {
