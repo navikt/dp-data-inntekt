@@ -61,7 +61,6 @@ private val behovJSON = """{
     "InntektSiste12Mnd"
   ],
   "Virkningstidspunkt": "2022-01-13",
-  "FangstOgFiskeInntektSiste36mnd": false,
   "ØnskerDagpengerFraDato": "2022-01-01",
   "Søknadstidspunkt": "2022-01-13",
   "system_read_count": 1,
